@@ -25,9 +25,12 @@
            fromLocation:(CLLocation *)oldLocation
 {
     CLLocationCoordinate2D coordinate = [newLocation coordinate];
-    [longitudeField setStringValue:[NSString stringWithFormat:@"%f", coordinate.longitude]];
-    [latitudeField setStringValue:[NSString stringWithFormat:@"%f", coordinate.latitude]];
-    [coordinateField setStringValue:[NSString stringWithFormat:@"%f,%f", coordinate.latitude, coordinate.longitude]];
+    NSString *longitudeString = [NSString stringWithFormat:@"%f", coordinate.longitude];
+    NSString *latitudeString = [NSString stringWithFormat:@"%f", coordinate.latitude];
+    [longitudeField setStringValue:longitudeString];
+    [latitudeField setStringValue:latitudeString];    
+    [coordinateField setStringValue:[NSString stringWithFormat:@"%@,%@", latitudeString, longitudeString]];
+    [coordinateField setHidden:NO];
     [locationManager stopUpdatingLocation];
 }
 
