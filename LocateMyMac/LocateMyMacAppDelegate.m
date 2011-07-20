@@ -10,7 +10,7 @@
 
 @implementation LocateMyMacAppDelegate
 
-@synthesize window, locationManager, latitudeField, longitudeField;
+@synthesize window, locationManager, latitudeField, longitudeField, coordinateField;
 
 - (id)init {
     [super init];
@@ -27,6 +27,7 @@
     CLLocationCoordinate2D coordinate = [newLocation coordinate];
     [longitudeField setStringValue:[NSString stringWithFormat:@"%f", coordinate.longitude]];
     [latitudeField setStringValue:[NSString stringWithFormat:@"%f", coordinate.latitude]];
+    [coordinateField setStringValue:[NSString stringWithFormat:@"%f,%f", coordinate.latitude, coordinate.longitude]];
     [locationManager stopUpdatingLocation];
 }
 
