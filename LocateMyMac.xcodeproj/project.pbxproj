@@ -49,7 +49,6 @@
 		4B1B29F813D6999B000AF0B4 = {
 			isa = PBXGroup;
 			children = (
-				4B1B2A2413D699E0000AF0B4 /* CoreLocation.framework */,
 				4B1B2A0D13D6999B000AF0B4 /* LocateMyMac */,
 				4B1B2A0613D6999B000AF0B4 /* Frameworks */,
 				4B1B2A0413D6999B000AF0B4 /* Products */,
@@ -67,6 +66,7 @@
 		4B1B2A0613D6999B000AF0B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B1B2A2413D699E0000AF0B4 /* CoreLocation.framework */,
 				4B1B2A0713D6999B000AF0B4 /* Cocoa.framework */,
 				4B1B2A0913D6999B000AF0B4 /* Other Frameworks */,
 			);
@@ -282,6 +282,7 @@
 				4B1B2A2313D6999B000AF0B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
