@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1B2A0813D6999B000AF0B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1B2A0713D6999B000AF0B4 /* Cocoa.framework */; };
+		4B1B2A1213D6999B000AF0B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B2A1013D6999B000AF0B4 /* InfoPlist.strings */; };
+		4B1B2A1513D6999B000AF0B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B2A1413D6999B000AF0B4 /* main.m */; };
+		4B1B2A1813D6999B000AF0B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B2A1613D6999B000AF0B4 /* Credits.rtf */; };
+		4B1B2A1B13D6999B000AF0B4 /* LocateMyMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B2A1A13D6999B000AF0B4 /* LocateMyMacAppDelegate.m */; };
+		4B1B2A1E13D6999B000AF0B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B2A1C13D6999B000AF0B4 /* MainMenu.xib */; };
+		4B1B2A2513D699E0000AF0B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1B2A2413D699E0000AF0B4 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B1B2A0313D6999B000AF0B4 /* LocateMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1B2A0713D6999B000AF0B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4B1B2A0A13D6999B000AF0B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4B1B2A0B13D6999B000AF0B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B1B2A0C13D6999B000AF0B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B1B2A0F13D6999B000AF0B4 /* LocateMyMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocateMyMac-Info.plist"; sourceTree = "<group>"; };
+		4B1B2A1113D6999B000AF0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B1B2A1313D6999B000AF0B4 /* LocateMyMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocateMyMac-Prefix.pch"; sourceTree = "<group>"; };
+		4B1B2A1413D6999B000AF0B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B1B2A1713D6999B000AF0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4B1B2A1913D6999B000AF0B4 /* LocateMyMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocateMyMacAppDelegate.h; sourceTree = "<group>"; };
+		4B1B2A1A13D6999B000AF0B4 /* LocateMyMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocateMyMacAppDelegate.m; sourceTree = "<group>"; };
+		4B1B2A1D13D6999B000AF0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4B1B2A2413D699E0000AF0B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1B2A0013D6999B000AF0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1B2A2513D699E0000AF0B4 /* CoreLocation.framework in Frameworks */,
+				4B1B2A0813D6999B000AF0B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1B29F813D6999B000AF0B4 = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A2413D699E0000AF0B4 /* CoreLocation.framework */,
+				4B1B2A0D13D6999B000AF0B4 /* LocateMyMac */,
+				4B1B2A0613D6999B000AF0B4 /* Frameworks */,
+				4B1B2A0413D6999B000AF0B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B1B2A0413D6999B000AF0B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A0313D6999B000AF0B4 /* LocateMyMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B1B2A0613D6999B000AF0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A0713D6999B000AF0B4 /* Cocoa.framework */,
+				4B1B2A0913D6999B000AF0B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B1B2A0913D6999B000AF0B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A0A13D6999B000AF0B4 /* AppKit.framework */,
+				4B1B2A0B13D6999B000AF0B4 /* CoreData.framework */,
+				4B1B2A0C13D6999B000AF0B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4B1B2A0D13D6999B000AF0B4 /* LocateMyMac */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A1913D6999B000AF0B4 /* LocateMyMacAppDelegate.h */,
+				4B1B2A1A13D6999B000AF0B4 /* LocateMyMacAppDelegate.m */,
+				4B1B2A1C13D6999B000AF0B4 /* MainMenu.xib */,
+				4B1B2A0E13D6999B000AF0B4 /* Supporting Files */,
+			);
+			path = LocateMyMac;
+			sourceTree = "<group>";
+		};
+		4B1B2A0E13D6999B000AF0B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B2A0F13D6999B000AF0B4 /* LocateMyMac-Info.plist */,
+				4B1B2A1013D6999B000AF0B4 /* InfoPlist.strings */,
+				4B1B2A1313D6999B000AF0B4 /* LocateMyMac-Prefix.pch */,
+				4B1B2A1413D6999B000AF0B4 /* main.m */,
+				4B1B2A1613D6999B000AF0B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B1B2A0213D6999B000AF0B4 /* LocateMyMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1B2A2113D6999B000AF0B4 /* Build configuration list for PBXNativeTarget "LocateMyMac" */;
+			buildPhases = (
+				4B1B29FF13D6999B000AF0B4 /* Sources */,
+				4B1B2A0013D6999B000AF0B4 /* Frameworks */,
+				4B1B2A0113D6999B000AF0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocateMyMac;
+			productName = LocateMyMac;
+			productReference = 4B1B2A0313D6999B000AF0B4 /* LocateMyMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B1B29FA13D6999B000AF0B4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B1B29FD13D6999B000AF0B4 /* Build configuration list for PBXProject "LocateMyMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B1B29F813D6999B000AF0B4;
+			productRefGroup = 4B1B2A0413D6999B000AF0B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B1B2A0213D6999B000AF0B4 /* LocateMyMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B1B2A0113D6999B000AF0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1B2A1213D6999B000AF0B4 /* InfoPlist.strings in Resources */,
+				4B1B2A1813D6999B000AF0B4 /* Credits.rtf in Resources */,
+				4B1B2A1E13D6999B000AF0B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1B29FF13D6999B000AF0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1B2A1513D6999B000AF0B4 /* main.m in Sources */,
+				4B1B2A1B13D6999B000AF0B4 /* LocateMyMacAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B1B2A1013D6999B000AF0B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1B2A1113D6999B000AF0B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B1B2A1613D6999B000AF0B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1B2A1713D6999B000AF0B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4B1B2A1C13D6999B000AF0B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1B2A1D13D6999B000AF0B4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B1B2A1F13D6999B000AF0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B1B2A2013D6999B000AF0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B1B2A2213D6999B000AF0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocateMyMac/LocateMyMac-Prefix.pch";
+				INFOPLIST_FILE = "LocateMyMac/LocateMyMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B1B2A2313D6999B000AF0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocateMyMac/LocateMyMac-Prefix.pch";
+				INFOPLIST_FILE = "LocateMyMac/LocateMyMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1B29FD13D6999B000AF0B4 /* Build configuration list for PBXProject "LocateMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1B2A1F13D6999B000AF0B4 /* Debug */,
+				4B1B2A2013D6999B000AF0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1B2A2113D6999B000AF0B4 /* Build configuration list for PBXNativeTarget "LocateMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1B2A2213D6999B000AF0B4 /* Debug */,
+				4B1B2A2313D6999B000AF0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B1B29FA13D6999B000AF0B4 /* Project object */;
+}
